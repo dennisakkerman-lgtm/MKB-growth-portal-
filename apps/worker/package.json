@@ -1,0 +1,16 @@
+{
+  "name": "@portal/worker",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@portal/core": "workspace:*",
+    "bullmq": "^5.25.0",
+    "ioredis": "^5.4.0",
+    "dotenv": "^16.4.0"
+  }
+}

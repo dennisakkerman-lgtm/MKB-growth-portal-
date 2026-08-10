@@ -1,0 +1,13 @@
+{
+  "name": "@portal/core",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "pg": "^8.13.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": { "@types/pg": "^8.11.0" }
+}
