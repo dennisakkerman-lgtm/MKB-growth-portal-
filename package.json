@@ -3,6 +3,8 @@
   "private": true,
   "packageManager": "pnpm@9.12.0",
   "scripts": {
+    "start": "pnpm --filter @portal/worker start",
+    "start": "pnpm --filter @portal/worker start",
     "dev:worker": "pnpm --filter @portal/worker dev",
     "dev:web": "pnpm --filter @portal/web dev",
     "build": "pnpm -r build",
