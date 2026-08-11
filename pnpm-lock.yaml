@@ -38,6 +38,9 @@ importers:
 
   packages/core:
     dependencies:
+      google-auth-library:
+        specifier: ^9.14.0
+        version: 9.15.1
       googleapis:
         specifier: ^144.0.0
         version: 144.0.0
